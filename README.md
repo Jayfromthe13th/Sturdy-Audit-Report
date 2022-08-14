@@ -1,6 +1,6 @@
 # Audit-Report
 
-### Background
+### Background:
 Sturdy is a protocol for interest-free borrowing and high yield lending.
 
 Lenders deposit stablecoins that they want to earn yield on while borrowers provide collateral and take out loans at no interest (interest rates will kick in above certain utilization rates, but this functionality is out of scope). Sturdy accomplishes this by staking collateral provided by borrowers in third party protocols like Yearn, Lido, and Convex. The yield from collateral staking is periodically harvested, swapped to stablecoins, and distributed to stablecoin lenders.
@@ -12,4 +12,10 @@ PoolAdmin can harvest the yield by calling a function that distributes excess st
 The full repository (with tests) can be found here.
 
 
-### Findings
+### Findings:
+High Vulnerabilities: 2 findings
+
+
+Medium Vulnerabilities: 3 findings 
+ 
+Gas optimization: 8 findings
